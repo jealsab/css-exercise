@@ -101,12 +101,12 @@ left:20px;
 
 
 .ethiopia .et{
-    position: absolute;
+    position: relative;
     bottom: 42rem;
     right: 45rem;
 }
 .ethiopia .pole{
-    background-color:brown;
+    background-color:rgb(132, 41, 41);
     height:480px;
     width:10px;
     position:relative;
