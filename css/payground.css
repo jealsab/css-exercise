@@ -1,0 +1,902 @@
+/*---Apply to all---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*----Body----*/
+
+body {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.wallpapersafari.com/88/8/fc6ank.jpg); */
+    background-color: #fff;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    width:auto;
+    position: relative;
+}
+
+/*---Header CSS---*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 5%;
+}
+.bg{
+    background-color: #fff;
+    width: 35px;
+    height: 12px;
+}
+ .bg .ham,.bg .ham .hm,.bg .ham .ha{
+    width:30px;
+    height: 1px;
+    background-color: #000;
+}
+.ham .hm{
+    position: relative;
+    bottom: 12px;
+}
+.ham .ha{
+    position: relative;
+    bottom: 24px;
+}
+
+ .logo{
+    cursor: pointer;
+    order: 1;
+    margin-top: 1rem;
+
+}
+
+ h2{
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    order: 2;
+    font-weight: 550;
+    font-size: 30px;
+    margin-top: 0.5rem;
+
+
+}
+
+
+.navbar {
+    order:2;
+    margin-right: auto;
+    padding-left:50px;
+}
+.menu{
+    list-style: none;
+    margin-top: 1rem;
+    /* color: #000; */
+
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav {
+/* 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 5%; */
+    /* display:flex; */
+    /* margin: auto; */
+    /* padding: 30px 80px; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* width: 100%; */
+}
+/* .navigation {
+    flex:1;
+    text-align: right;
+
+} */
+.navigation .menu .hg{
+    position: absolute;
+    top: 2.5rem;
+    right: 15rem;
+    cursor: pointer;
+/* margin-left:30rem ;
+margin-right: 1.25rem; */
+
+}
+.navigation .menu .gp{
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    /* margin-left:30rem ; */
+    /* margin-right: auto; */
+    
+    }
+
+.navigation .menu .hg,.navigation .menu .gp{
+    /* list-style: none;   */
+    order: 3;
+    border-radius: 15px;
+    /* margin-left:12rem ; */
+    padding: 1rem;
+    transition: 0.3s;
+    display: inline-block;
+
+
+
+}
+.gp ,.gp a{
+    background-color: darkslateblue;
+    color: white;
+    font-size: 100%;
+
+}
+.gp a:hover,.gp button:hover{
+    /* background-color: black; */
+    font-size: 100%;
+}
+.hg button:hover{
+background-color: blue;
+}
+
+
+.g li a:hover{
+    color: dodgerblue;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label {
+    margin-left: 25%;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    display: none;
+}
+
+.submit-btn {
+    float: right;
+    margin-right: 15px;
+}
+
+.navigation ul li {
+    /* padding: 15px; */
+    list-style: none;
+    padding: 0px 20px;
+
+    /* display: inline-block; */
+}
+
+.navigation ul li a {
+    color:#000;
+    font-size: 1.25rem;
+    font-weight: 500;
+   /* margin-left: 25px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: orangered;
+    font-size: 110%;
+}
+
+
+
+main{
+    max-width: 10000px;
+    margin: 0;
+}
+
+.design{
+    position:relative;
+    bottom: 12rem;
+    right:52.5rem;
+    height: 70%;
+} 
+
+.welcome{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 1rem;
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+article{
+    margin:0;
+}
+
+.home{
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+}
+ 
+.home> h1{
+    margin: 8rem 5rem 0;
+    font-size: xx-large;
+}
+
+.home>p{
+    margin: 0.5rem 5rem 0;
+    font-size: xx-large;
+}
+
+.hompic>img{
+    width: 100%;
+    height:80%; 
+    margin: 0 0 1rem;
+    padding: 8rem;
+}
+
+.hrj{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 2.5rem;
+    margin: 8rem 5rem 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.try{
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.try h1{
+    margin: 5rem 1rem 0;
+    font-size: xx-large;
+}
+
+.try p{
+    margin: 1rem 1rem 0;
+    font-size: x-large;
+}
+
+.try button{
+    margin: 2rem 2rem 0;
+    padding: 7px;
+    background-color: black;
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.try button a{
+    background-color: black;
+    color: white;
+}
+
+.try button a h2{
+    color:white;
+    background-color: black;
+}
+
+/* .try button .apple{
+    width: 10%;
+    height: 10%;
+    position: relative;
+} */
+.try img{
+    width:60%;
+    height:80%;
+    margin: 1rem 1rem 1rem;
+    padding: 5rem;
+    order: -1;
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+}
+#menu-bar{
+    display: none;
+}
+
+/* .try .pos .android{ */
+  /* position: relative; */
+  /* right: 10rem; */
+  /* background-color: black; */
+  /* padding: 10px; */
+  /* width: fit-content; */
+  /* top: 4rem; */
+  /* width: 1px;
+  height: 0%;
+
+} */
+.parttwo{
+    position: relative;
+    bottom:100px;
+    font-size: x-large;
+
+}
+.pos{
+    position: relative;
+    bottom: 10px;
+}
+
+.title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.title .center{
+    position: relative;
+    bottom: 40rem;
+    justify-items: center;
+    justify-content: center;
+    /* padding-left: 35rem; */
+}
+
+.title h1{
+    align-self: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0rem 5rem 7rem;
+    gap:   4rem;
+    padding: 30px;
+    font-size: medium;
+    position: relative;
+    top: 4rem;
+}
+.box h1{
+    padding-left: 2.5rem;
+    position: relative;
+    top:2.5rem;
+    background-color: beige;
+    font-size: xx-large;
+    color: darkslateblue;
+    font-family
+    :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box p ,.box h3{
+    padding-left: 2.5rem;
+    position: relative;
+    top:2.5rem;
+    background-color: beige;
+    font-size: larger;
+
+}
+
+.box{
+    min-width:300px ;
+    min-height:300px;
+    background-color: beige;
+    position: relative;
+    bottom: 40rem;
+}
+
+.parttwo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem 6rem 5rem;
+    position: relative;
+    top:0.1rem;
+
+}
+
+.parttwo .cr{
+    position: relative;
+    bottom: 35rem;
+    justify-items: center;
+    justify-content: center;
+    /* padding-left: 5rem; */
+}
+
+.parttwo h1{
+    align-self: center;
+}
+
+.art{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 1rem;
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 40rem;
+    margin: 0rem 6rem 5rem;
+}
+
+.art .one{
+    display: flex;
+    flex-flow: column;
+    padding: 4rem;
+}
+
+.art .one img{
+    order: -1;
+    padding: 2rem;
+}
+
+.art .one h1,.art .one p{
+    padding-bottom: 1rem;
+    margin: 0rem 1rem 0rem;
+
+}
+
+.art .two{
+    display: flex;
+    flex-flow: column;
+    padding: 4rem;
+}
+
+.art .two h1,.art .two p{
+     padding-bottom: 1rem;
+    margin: 0rem 1rem 0rem;
+
+}
+
+.art .two img{
+    padding: 2rem;
+    order: -1;
+}
+
+.art .three{
+    display: flex;
+    flex-flow: column;
+    padding: 4rem;
+}
+
+.art .three img{
+    padding-bottom: 1rem;
+    order: -1;
+}
+
+.art .three h1,.art .three p{
+    padding-bottom: 1rem;
+    margin: 0rem 1rem 0rem;
+
+}
+.cont{
+
+}
+
+.brx{
+    padding-top: 4rem;
+
+    width: 100%;
+    height: 100%;
+    background-color:slateblue;
+    position:relative;
+    bottom: 45rem;  
+    /* top: 3rem;  */
+    
+}
+
+.brx h1, .brx p{
+    width: 100%;
+    background-color:slateblue;
+    /* padding-left: 36rem; */
+    padding-bottom: 1.5rem;
+    font-size: xx-large;
+    color: white;
+}
+
+
+.brx button{
+    padding: 1rem;
+    color:slateblue;
+    border-radius: 10px;
+    margin-left: 45rem;
+    margin-bottom: 1em;
+    cursor: pointer;
+    background-color: white;
+}
+
+.brx button:hover{
+    background-color: lightsalmon;
+    opacity: 0.6;
+}
+
+
+.aldd{
+    width: 80%;
+    /* height: 250px; */
+    position: relative;
+    /* bottom: 45rem; */
+    left: 10rem;
+    background-color:slateblue ;
+}
+
+.lst{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 1rem;
+    font-size: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 25rem;
+}
+
+.lstr{
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    position: relative;
+    top: 8rem;
+}
+ 
+.lstr> h1{
+    margin: 2rem 5rem 0;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lstr>p{
+    margin: 0.5rem 5rem 0;
+    font-size: xx-large;
+    padding-bottom: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn button{
+    margin: 0.5rem 5rem 0;
+    font-size: large;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    cursor: pointer;
+    color: white;
+}
+
+.btn button:hover{
+    background-color: black;
+}
+.pic>img{
+    width: 100%;
+    height:100%; 
+    margin: 0 0 1rem;
+    padding: 8rem;
+}
+
+.ft button{
+    margin: 0.5rem 2rem 0;
+    padding: 8px;
+    background-color: black;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size: large;
+
+}
+
+.ft button a{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.ft button a h2{
+    color:white;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+}
+
+.ft{
+    display: flex;
+    padding: 1rem;
+    gap: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5rem 2rem 0;
+    background-color:lightgray;
+    flex-direction: row;    
+}
+
+.ft h1{
+    margin: 5rem 2rem 0;
+    font-size: xx-large;
+    background-color:lightgray;
+
+}
+
+.ft p{
+    margin: 1rem 2rem 0;
+    font-size: x-large;
+    background-color:lightgray;
+
+}
+
+.lg{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    right: 0;
+    background-color:lightgray;
+
+}
+
+.app{
+    padding: 1.5rem;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+    font-size: large;
+    background-color:lightgray;
+    text-decoration: underline;
+
+
+}
+.ft .first .icon{
+    background-color: grey;
+    width: 80px;
+    height:80px;
+    border-radius: 80px;
+    margin: 0rem 3rem 4rem;
+
+
+}
+.app a,.lg h2,.first ,.first h3,.first li,.first .icon{
+    background-color:lightgray;
+
+}
+
+
+.ft .layout{
+    margin: 2rem 2rem 0;
+    background-color:lightgray;
+    
+    position:relative;
+    /* top:8rem; */
+    
+}
+
+.ft .layout .left{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightgray;
+
+}
+
+.ft .about{
+    padding-top: 5.0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 2rem;
+    margin: 2rem 2rem 0;
+
+}
+
+.ft .first h1 , .ft .first p{
+    font-size: large;
+}
+
+
+.ft .first li{
+    list-style: none;
+    margin: 1rem 5rem 0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.ft .layout li,
+.ft .layout a{
+    list-style: none;
+    margin: 1rem 5rem 0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: medium;
+    background-color: lightgray;
+
+
+}
+footer{
+        
+    display: grid;
+    /* grid-template-rows: auto auto; */
+    grid-template-columns:3fr 1fr;
+    opacity: 0.5;
+    background-color: lightgray;
+   
+    /* border-top: 0.5em rgba(80,27,29,0.9); */
+    padding-right:20rem;}
+
+/* .small{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+} */
+.socialmedia{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    width: 30px;
+    padding: 0;
+    background-color: lightgray;
+
+}
+.sm{
+    display: inline-flex;
+    padding: 0%;
+}
+.d{
+    position: relative;
+    right: 9rem;
+}
+.cpyright{
+    position: relative;
+    top: 8rem;
+    background-color: lightgray;
+}
+.cpyright small{
+    background-color: lightgray;
+}
+
+
+header label {
+    margin-top: 25%;
+    margin-left: 25%;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 938px) {
+     /* header {
+        padding: 20px;
+    } */
+    /* .home- {
+        padding: 0 50px;
+        margin-left: 0px;
+        z-index: 1;
+    }  */
+
+    
+.hrj{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 2.5rem;
+    margin: 8rem 5rem 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.try{
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.try h1{
+    margin: 0rem 0rem 0rem;
+    font-size: xx-large;
+}
+
+.try p{
+    margin: 1rem 1rem 0;
+    font-size: x-large;
+}
+
+.try button{
+    margin: 2rem 2rem 0;
+    padding: 7px;
+    background-color: black;
+    border-radius: 15px;
+    cursor:pointer
+}
+
+.try button a{
+    background-color: black;
+    color: white;
+}
+
+.try button a h2{
+    color:white;
+    background-color: black;
+}
+
+/* .try button .apple{
+    width: 10%;
+    height: 10%;
+    position: relative;
+} */
+.try img{
+    width:60%;
+    height:80%;
+    margin: rem 1rem 1rem;
+    padding: 5rem;
+    order: -1;
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+}
+    header .navbar .mn{
+    position: relative;
+    top: 1rem;
+
+    }
+    header label {
+        display: initial;
+        /* margin-top: 2rem; */
+        /* max-width: auto; */
+    }
+    /* .lg{
+        border-radius: 70px;
+        background-attachment: white;
+    } */
+    /* .navbar {
+        justify-content: space-between;
+    }  */
+
+    .navigation .menu .hg{
+        position: absolute;
+        top: 8.5rem;
+        /* right: rem; */
+    /* margin-left:30rem ;
+    margin-right: 1.25rem; */
+    
+    }
+    .navigation .menu .gp{
+        position: absolute;
+        top: 8.5rem;
+        right: rem;
+        /* margin-left:30rem ; */
+        /* margin-right: auto; */
+        
+        }
+        .navigation ul li a:hover {
+            color: #fff;
+            /* font-size: 20%; */
+        }
+
+
+    header .navigation {
+        position: absolute;
+        background-color: lightskyblue;
+        height: 100vh;
+        width: 100vw;
+        bottom: 0%;
+        right: 0%;
+        top:0%;
+        left:0%;
+        text-align: center;
+        border: 1px solid rgba(0,0,0,.1);
+        display: none;
+        z-index: 2;
+        padding: 50px;
+        transition: 1s;
+        float: right;
+        
+    } 
+     /* header .navigation ul li {
+        display: inline-block;
+    }  */
+    header .navbar #menu-bar:checked ~ .navigation {
+        display:inline-block;
+    }}
+

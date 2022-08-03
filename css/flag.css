@@ -1,0 +1,169 @@
+.body{
+    margin:0;
+ 
+
+
+}
+*{
+    background-color: lightgray;
+    /* opacity: 0.9; */
+}
+
+h1{
+    position: relative;
+    top:7rem;
+    margin: 0 42rem 0;
+    opacity: 1;
+  
+
+}
+.container{
+    margin:10rem 40rem 0;
+    opacity: 1;
+  
+
+}
+.green{
+     background-color: green;
+        width: 300px;
+     height: 55px;
+     position: relative;
+     left:3rem;
+     bottom:41rem;
+     
+}
+.yellow{
+    background-color: yellow;
+    width: 300px;
+    height: 55px;
+    position: relative;
+    left:3rem;
+    bottom:41rem;
+    
+}
+.blue{
+    position: relative;
+    left:20px;
+    top:5px;
+}
+.blu{
+position: relative;
+left:20px;
+/* top:1px; */
+}
+
+.blue,.blu{
+    background-color: blue;
+    width: 300px;
+    height: 30px;
+   
+
+}
+
+.white{
+    background-color: white;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left:20px
+
+}
+
+.ethiopia .red{
+    background-color: red;
+    width: 300px;
+    height: 55px;
+    position: relative;
+    left:3rem;
+    bottom:41rem;
+
+}
+.emb{
+    height: 50px;
+    width: 55px;
+}
+.ethiopia .embelem{
+    position: absolute;
+    bottom: 34.75rem;
+    left: 11rem;
+
+}
+
+.red{
+
+    background-color:red;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left:20px
+
+}
+
+
+.ethiopia .et{
+    position: absolute;
+    bottom: 42rem;
+    right: 45rem;
+}
+.ethiopia .pole{
+    background-color:brown;
+    height:480px;
+    width:10px;
+    position:relative;
+    bottom:51.5rem;
+    left:2.5rem;
+}
+.ethiopia .circle{
+    background-color:black;
+    height:15px;
+    border-radius: 20px;
+    width:15px;
+    position:relative;
+    bottom:82rem;
+    left:2.25rem;
+
+}
+.pole{
+    background-color:brown;
+    height:480px;
+    width:10px;
+    position:relative;
+    bottom:159px;
+    left:10px;
+}
+.circle{
+    background-color:black;
+    height:15px;
+    border-radius: 20px;
+    width:15px;
+    position:relative;
+    bottom:650px;
+    left:6px;
+}
+/* .center{ */
+    /* background-color:blue; */
+    /* height:70px; */
+    /* border-radius: 70px; */
+    /* width:70px; */
+    /* position:relative; */
+    /* bottom:635px; */
+    /* left:130px;  */
+/* } */
+
+@media (max-width: 938px) {
+    h1{
+        position: relative;
+        top:2rem;
+        margin: 0 12rem 0;
+        opacity: 1;
+      
+    
+    }
+    .container{
+        margin:5rem 8rem 0;
+        opacity: 1;
+      
+    
+    }
+   }
+
